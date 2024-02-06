@@ -9,7 +9,6 @@ pygame.display.set_caption('Return to siren!')
 pygame.init()
 screen = pygame.display.set_mode((screen_width, screen_height))
 clock = pygame.time.Clock()
-#level = Level( screen, 1)  #gives access to the level
 
 class Game():
   

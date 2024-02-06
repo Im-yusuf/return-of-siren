@@ -194,4 +194,4 @@ class Level:
           self.speed_boost_collision()
         else:
           self.display_surface.fill('black')
-          self.display_surface.blit(self.font_coin.render('DEATH SCREEN', False, 'RED'),(600,320))
+          self.display_surface.blit(self.font_coin.render('YOU LOSE!!! TRY AGAIN', False, 'BLUE'),(600,320))

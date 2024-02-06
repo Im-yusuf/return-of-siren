@@ -13,6 +13,7 @@ map_layout = [
     'XXXXXXXXXXXX  XXXXXXXX XXXXXX  XX  XXXX     ',]
 
 map_layout2 = [
+    '                                                             ',
     'X                  XX      XX                 XX       XX    ',
     'X      CC         XXXX    XXXX               XXXX     XXXX   ',
     'X   C S                          C                           ',
