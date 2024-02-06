@@ -32,7 +32,7 @@ class Game():
                     self.get_time = int(pygame.time.get_ticks() / 1000) #the time taken for the player to press the mouse on the screen
                     game_state.main_game()  #runs the main game method
             pygame.display.update()  # updates the game display
-    def draw_timer(self): # drawing the timer in main instead of the level
+    def draw_timer(self):
         self.time = 180 - int(pygame.time.get_ticks() / 1000) + self.get_time  #adding the time taken for the player to start the game onto the count down
         if self.time <= 0: 
             self.time = 0
@@ -51,7 +51,7 @@ class Game():
             self.level.run() #runs the level's run method
             self.draw_healthbar()
             self.draw_timer() 
-            pygame.display.update()# updates display
+            pygame.display.update()
             clock.tick(60)#sets the clock tick speed
     def draw_healthbar(self):
         player_current_health=self.level.player.sprite.current_health
