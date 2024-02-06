@@ -93,6 +93,7 @@ class Level:
             player.on_left=False
         if player.on_right and (player.rect.right>self.current_x or player.direction.x<=0):
             player.on_right=False
+            
     def vertical_collision(self):
         player = self.player.sprite #sets the player variable to the player sprite
         player.apply_gravity() #calls in the apply gravity method

@@ -41,11 +41,4 @@ map_layout3=[
   '    XX     XX  X  X  X ',
   ]
 
- # '    X  X  X  
-  #'    X X X X
-  #'    XX   XX  
-  #'    X     X  
-
-
-# letters = ["a", "b", "c"]
-levels = {1: map_layout3, 2: map_layout2, 3:map_layout}
+levels = {1: map_layout, 2: map_layout2, 3:map_layout3}
